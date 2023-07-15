@@ -1,0 +1,174 @@
+.middleContainer {
+    height: fit-content;
+    width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.goToTopButton {
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.offer :first-child {
+    text-decoration: none;
+    padding: 10px 5px;
+    background-color: #222;
+    color: white;
+    width: 135px;
+    margin-bottom: 12px;
+}
+
+.offer :last-child {
+    text-decoration: none;
+    padding: 14px 10px;
+    background-color: #7400ff;
+    color: white;
+    width: 140px;
+}
+
+.offer span {
+    font-weight: bold;
+}
+
+.offer {
+    height: fit-content;
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.textMode {
+    margin: 5px 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+.textMode :first-child {
+    margin-right: 10px;
+}
+
+.categoryColor {
+    margin: 5px 0;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.categoryColor :first-child {
+    margin-right: 10px;
+}
+
+.function {
+    height: 118px;
+    width: 175px;
+    padding: 10px 15px;
+    position: fixed;
+    left: 0;
+    background-color: #370050;
+    color: white;
+}
+
+.function :first-child {
+    text-align: center;
+    font-weight: 600;
+}
+
+.instruction {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.searchModal {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.searchButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff5d5d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.searchButton:hover {
+    background-color: #45a049;
+}
+
+.cancelButton:hover {
+    background-color: #ff2e2e;
+}
+
+.darkModeClass {
+    background-color: black;
+    color: white;
+}

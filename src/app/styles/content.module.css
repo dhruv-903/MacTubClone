@@ -1,0 +1,28 @@
+.mainContentContainer{
+    padding: 20px 0;
+    min-height: 1000px;
+    height: fit-content;
+}
+
+.contentMainImage{
+    height: 500px;
+    background-image: url('../../../public/content.jpg');
+    background-size: cover;
+}
+
+.content{
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.isDarkMode{
+background-color: #222;
+color: white;
+}
+
+.content P{
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

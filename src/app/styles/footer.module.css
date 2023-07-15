@@ -1,0 +1,224 @@
+.footerMainContainer {
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footerTopContainer {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2),
+        0 -4px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.firstFooterHeading {
+    height: fit-content;
+    width: 780px;
+}
+
+.firstFooterHeading :first-child {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.firstFooterHeading :last-child {
+    text-align: center;
+}
+
+.emailInputContainer {
+    height: 105px;
+    width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailInputContainer input {
+    height: 36px;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.emailInputContainer input:focus {
+    outline: none;
+    border: 2px solid gray;
+}
+
+.emailInputContainer button {
+    height: 40px;
+    width: 88px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.emailInputContainer button:hover {
+    border: 2px solid rgb(1, 111, 1);
+    background-color: rgb(1, 111, 1);
+}
+
+.socialMediaIcons {
+    height: 25px;
+    width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMediaIcons div {
+    height: 25px;
+    width: 25px;
+    margin: 0 12px;
+    background-size: cover;
+}
+
+.facebooksm {
+    background-image: url('../../../public/facebooksm.png');
+}
+
+.instagramsm {
+    background-image: url('../../../public/instagramsm.png');
+}
+
+.twittersm {
+    background-image: url('../../../public/twittersm.png');
+}
+
+.youtubesm {
+    background-image: url('../../../public/youtubesm.png');
+}
+
+.footerBottomContainer {
+    height: fit-content;
+}
+
+.cards {
+    height: 366px;
+    width: 366px;
+    padding: 50px 35px;
+}
+
+.footerCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerHeading {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerHeading :first-child {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+
+.footerHeading :last-child {
+    margin-bottom: 25px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 12px;
+    height: fit-content;
+    margin: 12px 0;
+}
+
+.image {
+    height: 57px;
+    width: 90px;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.content1 {
+    background-image: url('../../../public/content3.jpg');
+}
+
+.content2 {
+    background-image: url('../../../public/content5.jpg');
+}
+
+.content3 {
+    background-image: url('../../../public/content1.jpg');
+}
+
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.imageContainerSocial {
+    height: 80px;
+    width: 80px;
+    margin: 0 5px;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('../../../public/facebook.png');
+}
+
+.instagram {
+    background-image: url('../../../public/instagram.png');
+}
+
+.twitter {
+    background-image: url('../../../public/twitter.png');
+}
+
+.youtube {
+    background-image: url('../../../public/youtube.png');
+}
+
+.tagsContainer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.tagsContainer a {
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid rgb(206, 206, 206);
+    text-align: center;
+    background-color: white;
+}
+
+.footerAbout {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.footerImage {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-image: url('../../../public/man.png');
+    background-size: cover;
+}

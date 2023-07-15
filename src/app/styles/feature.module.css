@@ -1,0 +1,82 @@
+.mainFeatureContainer {
+    background-color: white;
+    padding: 20px 0;
+    margin-top: 25px;
+}
+
+.heading {
+    margin: 15px 0;
+    padding-left: 5px;
+}
+
+.relatedArticlesPost {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 12px;
+    height: fit-content;
+    margin: 12px 0;
+}
+
+.details {
+    width: 270px;
+}
+
+.image {
+    height: 85px;
+    width: 85px;
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.content1 {
+    background-image: url('../../../public/content1.jpg');
+}
+
+.content2 {
+    background-image: url('../../../public/content2.jpg');
+}
+
+.content3 {
+    background-image: url('../../../public/content3.jpg');
+}
+
+.content4 {
+    background-image: url('../../../public/content4.jpg');
+}
+
+.otherStoriesPost {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 12px;
+    height: fit-content;
+    margin: 12px 0;
+    width: 45%;
+    padding: 20px 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.otherStoriesDetail {
+    width: 270px;
+}
+
+.otherStoriesImage {
+    height: 85px;
+    width: 85px;
+    background-size: cover;
+    background-image: url('../../../public/content5.jpg');
+    margin-right: 12px;
+}
+
+.isDarkMode {
+    background-color: #222;
+    color: white;
+}

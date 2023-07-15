@@ -1,0 +1,12 @@
+.returnToHome {
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.returnToHome:hover{
+    background-color: rgb(255, 99, 47);
+}

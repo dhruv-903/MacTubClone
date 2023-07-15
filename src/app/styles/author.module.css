@@ -1,0 +1,100 @@
+.mainAuthorContainer {
+    height: 325px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 50px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.authorImageName {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageNameContainer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url('../../../public/man.png');
+    background-size: cover;
+    margin-right: 23px;
+}
+
+.nameRole p {
+    text-align: center;
+    margin: 2px;
+}
+
+.nameRole :first-child {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.authorDetails {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.authorDetails p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.socialLinks {
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.socialLinks div {
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('../../../public/facebooksm.png');
+}
+
+.instagram {
+    background-image: url('../../../public/instagramsm.png');
+}
+
+.twitter {
+    background-image: url('../../../public/twittersm.png');
+}
+
+.viewAllArticlesButton button {
+    padding: 10px 20px;
+    font-size: 17px;
+    position: absolute;
+    bottom: -18px;
+    left: 41%;
+}
+
+.isDarkMode {
+    background-color: #222;
+    color: white;
+}
